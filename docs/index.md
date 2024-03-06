@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt;Sistema de Presença escola INFINITO&gt;*
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -30,16 +30,11 @@
 * Gabriel Shihao Chen Yin
 * Pedro Pessuto Ferreira
 * Andrea Tessler
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
 
 
 # Descrição do Projeto
 
-*&lt;Introdução do projeto&gt;*
+*&lt;A escola Infinito necessita de um sistema de presença novo pois o atual é feito em papel.&gt;*
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 *&lt;Descrição dos requisitos&gt;*
