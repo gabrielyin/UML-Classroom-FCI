@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Sistema de Presença escola INFINITO&gt;*
+Sistema de Presença escola INFINITO
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -34,10 +34,18 @@
 
 # Descrição do Projeto
 
-*&lt;A escola Infinito necessita de um sistema de presença novo pois o atual é feito em papel.&gt;*
+A escola Infinito necessita de um sistema de presença novo pois o atual é feito em papel.
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-*&lt;Descrição dos requisitos&gt;*
+**Requisitos Funcionais**
+  - Professores vão registrar a falta de forma intuitiva
+  - A falta vai ser registrada em dois momentos: no início das aulas e após o retorno do intervalo
+  - Gerar relatórios das faltas
+  - Enviar notificações via email
+
+**Requisitos Não-Funcionais**
+  - Acessibilidade
+  - Acesso a partir de qualquer dispositivo
 
 # Diagrama de Atividades
 
