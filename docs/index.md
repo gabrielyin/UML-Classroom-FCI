@@ -53,7 +53,8 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 
 # Diagrama de Casos de Uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+![image](https://github.com/gabrielyin/UML-Classroom-FCI/assets/70323043/f0315acb-4ac1-4d08-87ca-a4a8993ab9e4)
+
 
 # Descrição dos Casos de Uso
 
