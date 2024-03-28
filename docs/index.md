@@ -49,7 +49,8 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 
 # Diagrama de Atividades
 
-*&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
+![MACK Eng  de Softw  - Diagrama de Atividades](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/c0b5f5fe-5617-4410-acf1-099b27172a7c)
+
 
 # Diagrama de Casos de Uso
 
