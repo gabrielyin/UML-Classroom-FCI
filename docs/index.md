@@ -58,7 +58,70 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 
 # Descrição dos Casos de Uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+### Caso de Uso: Lançar faltas
+
+| Nome do Caso de Uso | Lançar faltas |
+|---------------------|---------------|
+| Ator Principal      | Professor     |
+| Atores Secundários  | Sistema       |
+| Resumo              | Este caso de uso descreve as etapas percorridas por um professor para lançar as faltas dos alunos. |
+| Pré-condições       | O professor precisa ter uma conta criada |
+| Fluxo Principal     | |
+| Ações do Ator       | Ações do Sistema |
+| 1. Professor acessa a área de lançar faltas no sistema | |
+| | 2. Sistema apresenta as matérias das escolas |
+| 3. Professor escolhe a sua matéria | |
+| | 4. Sistema pergunta o horário e dia da aula |
+| 5. Professor insere a data e o horário da aula | |
+| | 6. Sistema mostra uma tabela com todas os alunos para o professor marcar as faltas |
+| 7. Professor faz a chamada e marca os alunos que faltaram | |
+| | 8. Sistema recebe todas as faltas dos alunos e salva esses dados no banco de dados |
+| Restrições e Validações | |
+| | 1. Somente professores podem lançar as faltas |
+| | 2. A chamada deve ser feita no início e no final da aula |
+
+### Caso de Uso: Efetuar Cadastro
+
+| Nome do Caso de Uso | Efetuar Cadastro |
+|---------------------|-----------------|
+| Ator Principal      | Professor       |
+| Atores Secundários  | Sistema         |
+| Resumo              | Este caso de uso vai descrever as etapas percorridas por um professor para efetuar o cadastro. |
+| Pós-condições       | Possuir uma conta criada |
+| Fluxo Principal     | |
+| Ações do Ator       | Ações do Sistema |
+| 1. Entrar na página de cadastro dos professores | |
+| | 2. Sistema vai pedir email e senha do professor |
+| 3. Professor vai inserir seus dados | |
+| | 4. Sistema vai verificar se o professor é um professor de uma instituição e criar a conta no banco de dados |
+| 5. Professor recebe uma confirmação da criação da conta e entra na plataforma | |
+| Restrições e Validações | |
+| | 1. Somente professores da instituição podem criar uma conta |
+
+### Caso de Uso: Efetuar Login
+
+| Nome do Caso de Uso | Efetuar Login |
+|---------------------|---------------|
+| Ator Principal      | Professor     |
+| Atores Secundários  | Sistema       |
+| Resumo              | Este caso de uso vai descrever as etapas percorridas por um professor para efetuar o login na plataforma. |
+| Fluxo Principal     | |
+| Ações do Ator       | Ações do Sistema |
+| 1. Professor acessa a página do login | |
+| | 2. Sistema pede a senha e o email do professor |
+| 3. Professor insere o seu email e a sua senha | |
+| | 4. O sistema verifica se esses dados do professor são válidos e retorna uma resposta adequada |
+| 5. Depois do sistema validar e confirmar os dados do professor ele é liberado na plataforma | |
+| Fluxo Alternativo   | |
+| Ações do Ator       | Ações do Sistema |
+| 1. Professor esqueceu ou quer alterar a senha | |
+| | 2. Sistema confirma o email do professor enviando o código |
+| 3. Professor digita o código enviado no email para poder alterar a senha | |
+| | 4. O sistema pede para o professor digitar uma nova senha |
+| 5. Professor digita a nova senha | |
+| | 6. Sistema atualiza a nova senha no banco de dados e libera o acesso para o professor |
+| Restrições e Validações | |
+| | 1. Professor deve possuir uma conta no sistema |
 
 # Diagrama de Sequência
 
