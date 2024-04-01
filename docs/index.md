@@ -147,7 +147,7 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 |---------------------|---------------|
 | Ator Principal      | Sistema     |
 | Atores Secundários  | Professor       |
-| Resumo              | Este caso de uso vai enviar uma notificação por e-mail para os responsáeis dos alunos que tenham a presença menor que 80% |
+| Resumo              | Este caso de uso vai enviar uma notificação por e-mail para os responsáveis dos alunos que tenham a presença menor que 80% |
 | Fluxo Principal     | |
 | Ações do Ator       | Ações do Sistema |
 | 1. Professor acessa a área de lançar faltas e faz a chamada | |
