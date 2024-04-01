@@ -123,6 +123,40 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 | Restrições e Validações | |
 | | 1. Professor deve possuir uma conta no sistema |
 
+### Caso de Uso: Gerar Relatório
+
+| Nome do Caso de Uso | Efetuar Login |
+|---------------------|---------------|
+| Ator Principal      | Professor     |
+| Atores Secundários  | Sistema       |
+| Resumo              | Este caso de uso vai gerar as métricas de acordo com os parâmetros selecionados. |
+| Pré-condições       | O professor precisa ter uma conta criada |
+| Fluxo Principal     | |
+| Ações do Ator       | Ações do Sistema |
+| 1. Professor acessa a área de gerar relatórios | |
+| | 2. Sistema apresenta se quer ver o relatório de forma individual ou coletiva |
+| 3. Professor escolhe a forma que prefere | |
+| | 4. O sistema mostrar os dados a paritr das opções selecionadas |
+| Restrições e Validações | |
+| | 1. Professor deve possuir uma conta no sistema |
+
+
+### Caso de Uso: Enviar E-mail
+
+| Nome do Caso de Uso | Efetuar Login |
+|---------------------|---------------|
+| Ator Principal      | Sistema     |
+| Atores Secundários  | Professor       |
+| Resumo              | Este caso de uso vai enviar uma notificação por e-mail para os responsáeis dos alunos que tenham a presença menor que 80% |
+| Fluxo Principal     | |
+| Ações do Ator       | Ações do Sistema |
+| 1. Professor acessa a área de lançar faltas e faz a chamada | |
+| | 2. Verifica ao final, quais alunos estão com presença menor do que 80% e envia os e-amils |
+| Restrições e Validações | |
+| | 1. Professor deve possuir uma conta no sistema |
+| | 2. Deve ter tido aula até o momento |
+
+
 # Diagrama de Sequência
 
 *&lt;Diagrama de ordem e interação dos objetos&gt;*
