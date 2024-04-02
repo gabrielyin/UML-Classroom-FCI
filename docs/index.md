@@ -131,6 +131,7 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 | Atores Secundários  | Sistema       |
 | Resumo              | Este caso de uso vai gerar as métricas de acordo com os parâmetros selecionados. |
 | Pré-condições       | O professor precisa ter uma conta criada |
+| Pós-condições       | Mostrar relatório com gráficos e estatísiticas dos dados |
 | Fluxo Principal     | |
 | Ações do Ator       | Ações do Sistema |
 | 1. Professor acessa a área de gerar relatórios | |
