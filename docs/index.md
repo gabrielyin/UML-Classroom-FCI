@@ -66,6 +66,7 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 | Atores Secundários  | Sistema       |
 | Resumo              | Este caso de uso descreve as etapas percorridas por um professor para lançar as faltas dos alunos. |
 | Pré-condições       | O professor precisa ter uma conta criada |
+| Pós-condições       | Atualizar faltas no sistema |
 | Fluxo Principal     | |
 | Ações do Ator       | Ações do Sistema |
 | 1. Professor acessa a área de lançar faltas no sistema | |
@@ -87,7 +88,7 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 | Ator Principal      | Professor       |
 | Atores Secundários  | Sistema         |
 | Resumo              | Este caso de uso vai descrever as etapas percorridas por um professor para efetuar o cadastro. |
-| Pós-condições       | Possuir uma conta criada |
+| Pós-condições       | Possuir uma conta criada e verificar usuário |
 | Fluxo Principal     | |
 | Ações do Ator       | Ações do Sistema |
 | 1. Entrar na página de cadastro dos professores | |
@@ -105,6 +106,8 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 | Ator Principal      | Professor     |
 | Atores Secundários  | Sistema       |
 | Resumo              | Este caso de uso vai descrever as etapas percorridas por um professor para efetuar o login na plataforma. |
+| Pré-condições       | O professor precisa ter uma conta criada |
+| Pós-condições       | Verificar usuário |
 | Fluxo Principal     | |
 | Ações do Ator       | Ações do Sistema |
 | 1. Professor acessa a página do login | |
@@ -125,7 +128,7 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 
 ### Caso de Uso: Gerar Relatório
 
-| Nome do Caso de Uso | Efetuar Login |
+| Nome do Caso de Uso |  Gerar Relatório |
 |---------------------|---------------|
 | Ator Principal      | Professor     |
 | Atores Secundários  | Sistema       |
@@ -136,18 +139,19 @@ A escola Infinito necessita de um sistema de presença novo pois o atual é feit
 | Ações do Ator       | Ações do Sistema |
 | 1. Professor acessa a área de gerar relatórios | |
 | | 2. Sistema apresenta se quer ver o relatório de forma individual ou coletiva |
-| 3. Professor escolhe a forma que prefere | |
-| | 4. O sistema mostrar os dados a paritr das opções selecionadas |
+| 3. Professor escolhe a forma que prefere dentro das opções: Individual —> Selecionar aluno ou Coletivo —> Selecionar anos (todos ou específicos)  —> Selecionar turmas (todas ou específicas)  —> Selecionar matérias (todas ou específicas) | |
+| | 4. O sistema mostrar os dados a paritr das opções selecionadas  |
 | Restrições e Validações | |
 | | 1. Professor deve possuir uma conta no sistema |
 
 
 ### Caso de Uso: Enviar E-mail
 
-| Nome do Caso de Uso | Efetuar Login |
+| Nome do Caso de Uso |  Enviar E-mail |
 |---------------------|---------------|
 | Ator Principal      | Sistema     |
 | Atores Secundários  | Professor       |
+| Pós-condições       | Atualizar faltas no sistema |
 | Resumo              | Este caso de uso vai enviar uma notificação por e-mail para os responsáveis dos alunos que tenham a presença menor que 80% |
 | Fluxo Principal     | |
 | Ações do Ator       | Ações do Sistema |
