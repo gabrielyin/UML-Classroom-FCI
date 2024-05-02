@@ -34,18 +34,19 @@ Sistema de Presença escola INFINITO
 
 # Descrição do Projeto
 
-A escola Infinito necessita de um sistema de presença novo pois o atual é feito em papel.
+  O projeto consiste no desenvolvimento de um sistema de controle de presença para a Escola Infinito, que atualmente faz esse controle de forma manual. O sistema permitirá que os professores registrem faltas de forma intuitiva em dois momentos do dia, gere relatórios das faltas e envie notificações por e-mail aos responsáveis quando a porcentagem de comparecimento às aulas estiver abaixo de 80%.
+  Para atender as necessidades da escola é preciso criar um sistema que inclua as turmas do 1º ao 5º ano do Ensino Fundamental, cada uma com vários alunos (geralmente entre 20 e 30). Cada turma possui um professor principal que ministra a maior parte das aulas e outros professores para matérias específicas. A chamada é realizada todos os dias pelos professores em dois momentos: no início das aulas do dia e logo após o retorno do intervalo. Um estudante precisa ter comparecido a pelo menos 75% do total de aulas do ano para não ser reprovado por faltas.
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 **Requisitos Funcionais**
-  - Professores vão registrar a falta de forma intuitiva
-  - A falta vai ser registrada em dois momentos: no início das aulas e após o retorno do intervalo
-  - Gerar relatórios das faltas
-  - Enviar notificações via email
+  - Plataforma: permita que a mesma plataforma comporte diferentes tipos de cargos
+  - Registro de faltas: permitir que professores registrem faltas de forma fácil e intuitiva.
+  - Relatórios de faltas: gerar relatórios de faltas agrupados por data, ano do ensino, turma, professor disciplina ou aluno, para facilitar a análise e o acompanhamento do número de faltas.
+  - Notificações: enviar notificações por e-mail aos pais ou responsáveis quando a porcentagem de comparecimento às aulas estiver abaixo de 80%.
 
 **Requisitos Não-Funcionais**
-  - Acessibilidade
-  - Acesso a partir de qualquer dispositivo
+  - Acessibilidade: garantir que o sistema seja acessível a todos os usuários, incluindo pessoas com deficiências, com recursos de acessibilidade como tamanho de fonte ajustável.
+  - Acesso a partir de qualquer navegador web, inclusive em dispositivos móveis.Acessibilidade
 
 # Diagrama de Atividades
 
