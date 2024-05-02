@@ -57,8 +57,6 @@ Sistema de Presença escola INFINITO
 
 ![UML Mack](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/017341c3-1cd0-4e46-9faf-ab77547ca5f5)
 
-[//]: ![image](https://github.com/gabrielyin/UML-Classroom-FCI/assets/70323043/d0981966-f4bb-4ddb-b0e8-55fa3ea38fdb)
-
 # Descrição dos Casos de Uso
 
 ### Caso de Uso: Lançar faltas
