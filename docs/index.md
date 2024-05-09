@@ -54,7 +54,8 @@ Sistema de Presença escola INFINITO
 
 # Diagrama de Casos de Uso
 
-![UML Mack](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/017341c3-1cd0-4e46-9faf-ab77547ca5f5)
+![Diagrama de Casos de Uso - Diagrama de caso de uso](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/b1d5f9d7-4388-41a8-be75-b154ceaa600e)
+
 
 # Descrição dos Casos de Uso
 
@@ -83,24 +84,6 @@ Sistema de Presença escola INFINITO
 | Restrições e Validações | |
 | | 1. Somente professores podem lançar as faltas |
 | | 2. A chamada deve ser feita no início e no final da aula |
-
-### Caso de Uso: Efetuar Cadastro
-
-| Nome do Caso de Uso | Efetuar Cadastro |
-|---------------------|-----------------|
-| Ator Principal      | Professor       |
-| Atores Secundários  | Sistema         |
-| Resumo              | Este caso de uso vai descrever as etapas percorridas por um professor para efetuar o cadastro. |
-| Pós-condições       | Possuir uma conta criada e verificar usuário |
-| Fluxo Principal     | |
-| Ações do Ator       | Ações do Sistema |
-| 1. Entrar na página de cadastro dos professores | |
-| | 2. Sistema vai pedir email e senha do professor |
-| 3. Professor vai inserir seus dados | |
-| | 4. Sistema vai verificar se o professor é um professor de uma instituição e criar a conta no banco de dados |
-| 5. Professor recebe uma confirmação da criação da conta e entra na plataforma | |
-| Restrições e Validações | |
-| | 1. Somente professores da instituição podem criar uma conta |
 
 ### Caso de Uso: Efetuar Login
 
