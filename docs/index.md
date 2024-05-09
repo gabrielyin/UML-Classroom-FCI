@@ -50,8 +50,7 @@ Sistema de Presença escola INFINITO
 
 # Diagrama de Atividades
 
-![MACK Eng  de Softw  - Diagrama de Atividades](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/c0b5f5fe-5617-4410-acf1-099b27172a7c)
-
+![MACK Eng  de Softw  - Diagrama de Atividades](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/96fc8291-deba-464d-9d29-7c5df1aeeede)
 
 # Diagrama de Casos de Uso
 
