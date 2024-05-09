@@ -132,25 +132,8 @@ Sistema de Presença escola INFINITO
 
 # Diagrama de Sequência
 
-Professor
-Sistema 
-Pais
 
-
-Loop	
-
-Fazer login
-Validar usuario e senha 
-Registrar faltas
-Verificar taxa de faltas
-
-Enviar email aos pais
-
-
-Pedir relatorio
-
-
-Gerar Relatorio
+![Diagrama de sequência básico](https://github.com/gabrielyin/UML-Classroom-FCI/assets/83229060/6e8aac93-7110-44b9-9f90-f39a3c8d092e)
 
 # Diagrama de Classes
 
