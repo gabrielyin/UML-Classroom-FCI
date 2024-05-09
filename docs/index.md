@@ -132,7 +132,25 @@ Sistema de Presença escola INFINITO
 
 # Diagrama de Sequência
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+Professor
+Sistema 
+Pais
+
+
+Loop	
+
+Fazer login
+Validar usuario e senha 
+Registrar faltas
+Verificar taxa de faltas
+
+Enviar email aos pais
+
+
+Pedir relatorio
+
+
+Gerar Relatorio
 
 # Diagrama de Classes
 
