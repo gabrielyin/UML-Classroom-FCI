@@ -133,7 +133,8 @@ Sistema de Presença escola INFINITO
 # Diagrama de Sequência
 
 
-![Diagrama de sequência básico](https://github.com/gabrielyin/UML-Classroom-FCI/assets/83229060/6e8aac93-7110-44b9-9f90-f39a3c8d092e)
+
+![Diagrama de sequência básico (1)](https://github.com/gabrielyin/UML-Classroom-FCI/assets/83229060/32411042-9b09-4230-918a-07c9c12735c4)
 
 # Diagrama de Classes
 
