@@ -78,6 +78,9 @@ Sistema de Presença escola INFINITO
 | | 6. Sistema mostra uma tabela com todas os alunos para o professor marcar as faltas |
 | 7. Professor faz a chamada e marca os alunos que faltaram | |
 | | 8. Sistema recebe todas as faltas dos alunos e salva esses dados no banco de dados |
+| | 9. Sistema verifica quais alunos estão com a taxa de faltas maior que o permitido |
+| | 10. Sistema envia as notificações por e-mail dos pais |
+| 11. Pais recebem a notificação (ator: Pais) | |
 | Restrições e Validações | |
 | | 1. Somente professores podem lançar as faltas |
 | | 2. A chamada deve ser feita no início e no final da aula |
@@ -144,24 +147,6 @@ Sistema de Presença escola INFINITO
 | | 4. O sistema mostrar os dados a paritr das opções selecionadas  |
 | Restrições e Validações | |
 | | 1. Professor deve possuir uma conta no sistema |
-
-
-### Caso de Uso: Enviar E-mail
-
-| Nome do Caso de Uso |  Enviar E-mail |
-|---------------------|---------------|
-| Ator Principal      | Sistema     |
-| Atores Secundários  | Professor       |
-| Pós-condições       | Atualizar faltas no sistema |
-| Resumo              | Este caso de uso vai enviar uma notificação por e-mail para os responsáveis dos alunos que tenham a presença menor que 80% |
-| Fluxo Principal     | |
-| Ações do Ator       | Ações do Sistema |
-| 1. Professor acessa a área de lançar faltas e faz a chamada | |
-| | 2. Verifica ao final, quais alunos estão com presença menor do que 80% e envia os e-amils |
-| Restrições e Validações | |
-| | 1. Professor deve possuir uma conta no sistema |
-| | 2. Deve ter tido aula até o momento |
-
 
 # Diagrama de Sequência
 
