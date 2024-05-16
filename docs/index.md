@@ -136,7 +136,7 @@ Sistema de Presença escola INFINITO
 
 # Diagrama de Classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![diagrama_de_classe](https://github.com/gabrielyin/UML-Classroom-FCI/assets/70323043/ef1515f3-7edb-4d20-b470-b348bc815752)
 
 # Diagrama de Estados
 
