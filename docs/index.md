@@ -141,6 +141,7 @@ Sistema de Presença escola INFINITO
 # Diagrama de Estados
 
 *&lt;Diagrama para permite modelar o comportamento interno de um determinado objeto, subsistema ou sistema global&gt;*
+![diagrama-estados (1)](https://github.com/gabrielyin/UML-Classroom-FCI/assets/83229060/9623ec13-4e89-4540-a551-715556bc9162)
 
 # Diagrama de Implantação
 
