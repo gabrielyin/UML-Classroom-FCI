@@ -144,7 +144,8 @@ Sistema de Presença escola INFINITO
 
 # Diagrama de Implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+![UML De Implantação](https://github.com/gabrielyin/UML-Classroom-FCI/assets/116746646/e5049b87-d95e-467d-b8f0-5b9c5c332106)
+
 
 # Referências
 
