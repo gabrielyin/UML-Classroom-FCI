@@ -153,4 +153,6 @@ Sistema de Presença escola INFINITO
 - https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml
 - https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml#:~:text=um%20diagrama%20UML-,O%20que%20é%20diagrama%20de%20caso%20de%20uso%3F,de%20símbolos%20e%20conectores%20especializados.
 - https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-implantacao/
-
+- https://graduacao.mackenzie.br/pluginfile.php/252766/mod_resource/content/1/aula-uml-atividades.pdf
+- Filho, W.D.P. P. (2019). Engenharia de Software – Produtos – Vol.1 (4th ed.).
+- Pressman, R. S., & Maxim, B. R. (2021). Engenharia de software (9th ed.). 
